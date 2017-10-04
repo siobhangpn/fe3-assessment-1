@@ -1,0 +1,46 @@
+background {
+    color: aliceblue;
+}
+
+h1 {
+    font: 22px sans-serif;
+}
+
+element.style {
+}
+
+svg[Attributes Style] {
+    width: 960;
+    height: 500;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+
+html|* > svg {
+    transform-origin: 50% 50% 0px;
+}
+
+* {
+    transform-origin: 0px 0px 0px;
+}
+
+.bar--positive {
+  fill: #F2A19A;
+}
+
+.bar--negative {
+  fill: darkorange;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

@@ -1,0 +1,27 @@
+background {
+    background-color: black;
+    padding-top: 5em;
+}
+
+h1 {
+    font: 22px sans-serif;
+}
+
+.bar--positive {
+    fill: #F2A19A;
+}
+
+.bar--negative {
+    fill: darkorange;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
